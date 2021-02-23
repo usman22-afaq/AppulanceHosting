@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node i.js",
     "heroku-postbuild": "npm run build"
-
   },
   "author": "sana",
   "license": "ISC",
@@ -18,8 +17,16 @@
     "router": "^1.3.5",
     "tedious": "^2.2.4"
   },
-  "engines": {    
+  "engines": {
     "node": "12.19.0",
     "npm": "6.14.8"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usman22-afaq/AppulanceHosting.git"
+  },
+  "bugs": {
+    "url": "https://github.com/usman22-afaq/AppulanceHosting/issues"
+  },
+  "homepage": "https://github.com/usman22-afaq/AppulanceHosting#readme"
 }
